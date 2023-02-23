@@ -1,6 +1,6 @@
 ![HenryLogo](./Assets//logoBannerHenry.png)
 
-# **🧑‍💻 PREP COURSE | HENRY 👩‍💻**
+# **🧑‍💻 PREP COURSE | HENRY | Completado con Éxito 👩‍💻**
 
 ## **📌 INTRODUCCIÓN**
 
@@ -20,7 +20,7 @@ El curso consiste en una serie de videos, material teórico y ejercicios con los
 
 ## **📖 ¿QUÉ ES EL HENRY CHALLENGE?**
 
-Es un examen en el que evaluamos los conceptos que se aprenden durante el Prep Course. El examen tiene la finalidad de asegurarnos que realmente has adquirido los conocimientos, dado que tenerlos bien claros es la clave del éxito para que puedas avanzar sin problemas dentro de la carrera. El examen se realiza todos los sábados, con previa [inscripción](https://www.admissions.soyhenry.com/). Podrás rendirlo todas las veces que quieras.
+Es un examen en el que evaluamos los conceptos que se aprenden durante el Prep Course. El examen tiene la finalidad de asegurarnos que realmente has adquirido los conocimientos, dado que tenerlos bien claros es la clave del éxito para que puedas avanzar sin problemas dentro de la carrera. El examen se realiza todos los sábados, con previa inscripción. Podrás rendirlo todas las veces que quieras.
 
 </br >
 
@@ -28,7 +28,7 @@ Es un examen en el que evaluamos los conceptos que se aprenden durante el Prep C
 
 ### Contamos con dos herramientas de apoyo:
 
--  **SLACK:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la [plataforma de admisión](https://www.admissions.soyhenry.com/) o desde los mails que recibiste al momento de aplicar.
+-  **SLACK:** es una plataforma de comunicación, donde podrás ponerte en contacto con nuestra comunidad que siempre te ayudará a resolver todas tus dudas. Encontrarás acceso a Slack desde la plataforma de admisión o desde los mails que recibiste al momento de aplicar.
 
 -  **CLASES DE APOYO EN VIVO:** de lunes a viernes hay un espacio en vivo por _Zoom_ con estudiantes avanzados que se postulan para responder todas tus consultas.
 
@@ -77,5 +77,3 @@ Para ejecutar los tests de las homeworks debes:
 Para poder acompañarte en esta etapa te ofrecemos las **Clases de Apoyo en Vivo**. Este es un espacio donde los Henry Heros (HHs) (estudiantes avanzados de Henry) se ponen a disposición para despejar todas las dudas que puedas tener mientras estás estudiando el Prep Course.
 
 Las clases son de lunes a viernes. Cada día se establece una temática distinta a trabajar. Deberás llegar a la clase habiendo visto los videos sobre ese tema e intentado resolver los ejercicios, dado que en las clases no se explicará los temas desde cero sino que se resolverán dudas puntuales.
-
-Si no puedes asistir al espacio en vivo, podrás ver la grabación. Puedes encontrar el calendario con las clases, el link de acceso y el link de la grabación, aquí: [**CALENDARIO**](https://prep.soyhenry.com/calendario/)
