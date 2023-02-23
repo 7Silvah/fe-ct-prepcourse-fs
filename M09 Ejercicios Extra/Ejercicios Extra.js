@@ -33,6 +33,12 @@ function capToFront(string) {
   // Retornar el string.
   // [EJEMPLO]: soyHENRY ---> HENRYsoy
   // Tu código:
+  let lowerCase = [];
+  let upperCase = [];
+  let word = string.split("");
+  lowerCase =  word.filter((letter) => !(letter === letter.toUpperCase()));
+  upperCase =  word.filter((letter) => (letter === letter.toUpperCase()));
+  return upperCase.join("") + lowerCase.join("");
 }
 
 function asAmirror(frase) {
@@ -40,18 +46,38 @@ function asAmirror(frase) {
   // La diferencia es que cada palabra estará escrita al inverso.
   // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
   // Tu código:
+  const arrFrase = frase.split(" ");
+  return arrFrase.map( palabra => palabra.split("")
+                 .reduce((res, letter) => letter + res, "")).join(" ");
 }
 
 function capicua(numero) {
   // Si el número que recibes es capicúa debes retornar el string: "Es capicua".
   // Caso contrario: "No es capicua".
   // Tu código:
+
+  let palabraVolveada = numero
+    .toString()
+    .split("")
+    .reduce((result, caracter, index, array) => {
+      return result && caracter === array[array.length - 1 - index];
+    }, true);
+  if (palabraVolveada) {
+    return "Es capicua";
+  } else {
+    return "No es capicua";
+  }
 }
 
 function deleteAbc(string) {
   // Tu tarea es eliminar las letras "a", "b" y "c" del string recibido.
   // Retorna el string sin estas letras.
   // Tu código:
+  return string.split("").filter( (caracter, index) => {
+    if(caracter !== "a" && caracter !== "b" && caracter !== "c"){
+      return caracter;
+    }
+  }).join("");
 }
 
 function sortArray(arrayOfStrings) {
@@ -60,6 +86,7 @@ function sortArray(arrayOfStrings) {
   // de la longitud de cada string.
   // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
   // Tu código:
+  return [...arrayOfStrings].sort((a,b) => a.length - b.length) 
 }
 
 function buscoInterseccion(array1, array2) {
@@ -69,6 +96,19 @@ function buscoInterseccion(array1, array2) {
   // Si no tienen elementos en común, retornar un arreglo vacío.
   // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
   // Tu código:
+  let result = array1.reduce((nuevoArray, elemento) => {
+    let counter = 0;
+    while (counter < array2.length) {
+      if (elemento === array2[counter]) {
+        nuevoArray.push(elemento);
+      }
+      counter++;
+    }
+    return nuevoArray;
+  }, []);
+  return result.filter(
+    (elemento, indice, arreglo) => arreglo.indexOf(elemento) === indice
+  );
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
